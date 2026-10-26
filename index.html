@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-1.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Noughts and Crosses</title>
+  </head>
+  <body>
+    <h1>NOUGHTS and CROSSES</h1>
+    <div class="message" id="message">
+      <div class="messageColor">GAME ON</div>
+      <div>PLAYER X's TURN</div>
+    </div>
+
+    <!-- Game cells for player moves -->
+    <div class="board">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+
+    <div>
+      <button class="btn btn-restart" id="btn-restart">NEW GAME</button>
+    </div>
+
+    <!-- Display game statistics -->
+    <div id="counts"></div>
+
+    <!-- Reset game -->
+    <button class="btn btn-reset" id="btn-reset">RESET</button>
+
+    <!-- copyright -->
+    <div id="copy"></div>
+  </body>
+</html>
+
+<!-- Resourses -->
+<!-- https://youtu.be/Bsmh1P-Vdl0 -->
+
+<!-- 
+https://en.wikipedia.org/wiki/Tic-tac-toe
+Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os (Canadian or Irish English) is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid, one with Xs and the other with Os. A player wins when they mark all three spaces of a row, column, or diagonal of the grid, whereupon they traditionally draw a line through those three marks to indicate the win. It is a solved game, with a forced draw assuming best play from both players.
+-->
